@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 
 	printf("Gogogoooo!!\n");
 	GLFWwindow *window;
-	if(!glfwInit())
+	if(!glfwInit()) //hi
 		return -1;
 
 	window = glfwCreateWindow(WindowWidth, WindowHeight, "Hello World", NULL, NULL);
